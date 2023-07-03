@@ -11,16 +11,16 @@ ReactJS
 
 1. Open your terminal and then type
 
-##### $ git clone {the url to the GitHub repo}
+ $ git clone https://github.com/mith99/AmplifynPracticalTest.git
 
 
 2. cd into the new folder and type
 
-###3# $ npm install
+ $ npm install
 
 
 3. To run the React project.
-##### $ npm start
+ $ npm start
 
 
 
