@@ -1,0 +1,47 @@
+@import '../colors.scss';
+
+.date-container {
+  background-color:$background-white ;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+font-family: 'Inter';
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  margin-top: 8px;
+  border: 1px solid $border-grey;
+  box-shadow: 0 4px 15px 0 rgba($border-grey, 0.5),
+
+
+  
+
+}
+
+.date-container::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; 
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent $border-grey transparent;
+    box-shadow: 0 4px 15px 0 rgba($border-grey, 0.5),
+
+    
+  }
+
+.close-btn{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  cursor: pointer;
+
+  .close{
+    border: 1px $border-grey solid;
+    height: 25px;
+    width: 25px;
+  }
+}

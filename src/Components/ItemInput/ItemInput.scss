@@ -1,0 +1,29 @@
+@import '../colors.scss';
+
+.input-heading{
+    color: $item-heading-blue;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    text-transform: capitalize;
+    margin-left: 3px;
+
+    
+}
+
+.item-input{
+    width: 290px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: solid 2px $input-border-grey;
+    padding-left: 8px;
+    
+}
+
+.icon-style{
+    height: 15px;
+}

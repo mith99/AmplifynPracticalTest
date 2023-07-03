@@ -1,0 +1,78 @@
+@import "../colors.scss";
+
+.item-card {
+  border-radius: 4px;
+  border: 1px solid $item-card-border;
+  background: $background-white;
+  padding: 1rem;
+  margin-top: 8px;
+
+
+  .left-items{
+    width: 30%;
+    
+  }
+
+  .right-items{
+    width: 15%;
+ 
+  }
+  .item-name {
+    color: $item-heading-blue;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+  }
+
+  
+  .expiry-date {
+    color: $sub-heading-blue;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+  }
+
+  .expiration-status {
+    width: 100px;
+    height: 24px;
+    border-radius: 22px;
+
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+  }
+
+  .status-expiring{
+    background-color: $expiring-yellow;
+    color: $expiring-font-yellow;
+
+  }
+
+  .status-expired{
+    background-color: $expired-red;
+    color: $expired-font-red;
+  }
+
+
+  .status-healthy{
+    background-color: $healthy-green;
+    color: $healthy-font-green;
+  }
+
+
+}
+
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vertical-align{
+display: flex;
+justify-items: center;
+align-items: center;
+}

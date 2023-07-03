@@ -1,0 +1,35 @@
+@import "../colors.scss";
+
+
+.input-box {
+  border-radius: 8px;
+  border: 1px solid $border-grey;
+  width: 100%;
+  height: max-content;
+  padding: 2rem;
+  background-color: $background-white;
+  margin-top: 60px;
+  box-shadow: 0 4px 15px 0 rgba($border-grey, 0.5),
+    0 6px 20px 0 rgba($border-grey, 0.5);
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  // background-color: aqua;
+}
+
+.btn-position {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.msg {
+  margin-top: 12px;
+  color: #728197;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 500;
+  display: flex;
+}

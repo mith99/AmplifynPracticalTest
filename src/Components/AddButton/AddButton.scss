@@ -1,0 +1,16 @@
+@import "../colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+.add-button {
+  width: 240px;
+  height: 45px;
+  color: $background-white;
+  text-align: center;
+  font-size: 13px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 4px;
+  background: $button-blue;
+  cursor: pointer;
+}
