@@ -27,3 +27,56 @@
 .icon-style{
     height: 15px;
 }
+
+
+
+@media screen and (max-width:1920px){
+    .item-input{
+        width: 370px;
+    }
+}
+
+@media screen and (max-width:1800px){
+    .item-input{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:1680px){
+    .item-input{
+        width: 325px;
+    }
+}
+
+
+@media screen and (max-width:1600px){
+    .item-input{
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .item-input{
+        width: 260px;
+    }
+}
+
+
+@media screen and (max-width:1366px){
+    .item-input{
+        width: 245px;
+    }
+}
+
+
+@media screen and (max-width:1280px) {
+    .item-input{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .item-input{
+        width: 170px;
+    }
+}

@@ -3,7 +3,7 @@ import "../AddButton/AddButton.scss";
 import "../FridgeMain/Fridge.scss";
 import Context from "../../ContextApi/Context";
 
-const AddButton = () => {
+const AddButton = (props) => {
   return (
     <Context.Consumer>
       {(context) => (

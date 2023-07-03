@@ -1,5 +1,5 @@
 @import "../colors.scss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 .add-button {
   width: 240px;
   height: 45px;
@@ -13,4 +13,51 @@
   border-radius: 4px;
   background: $button-blue;
   cursor: pointer;
+}
+@media screen and (max-width: 1920px) {
+  .add-button {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .add-button {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .add-button {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .add-button {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .add-button {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .add-button {
+    width: 210px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .add-button {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .add-button {
+    width: 150px;
+  }
 }
