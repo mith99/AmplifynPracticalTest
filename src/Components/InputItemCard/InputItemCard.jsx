@@ -7,6 +7,7 @@ import Warning from "../../Assets/Warning.svg";
 import DatePicker from "../DatePicker/DatePicker";
 import Context from "../../ContextApi/Context";
 
+// Form container for adding new items
 const InputItemCard = () => {
   return (
     <Context.Consumer>
@@ -18,8 +19,8 @@ const InputItemCard = () => {
               <div>
                 <ItemInput title="Expiry Date" />
 
-                {context.viewCalendar?<DatePicker /> :'' }
-                
+                {/* view calendar only when date picker input is clicked */}
+                {context.viewCalendar ? <DatePicker /> : ""}
               </div>
 
               <div className="btn-position">

@@ -15,6 +15,7 @@ const DatePicker = () => {
             context.setViewCalendar(true);
           }}
         >
+          {/* Close button for date picker */}
           <div
             onClick={() => {
               context.setViewCalendar(false);
@@ -23,6 +24,7 @@ const DatePicker = () => {
           >
             <div className="close">x</div>
           </div>
+          {/* Date picker */}
           <DayPicker
             mode="single"
             selected={context.date}

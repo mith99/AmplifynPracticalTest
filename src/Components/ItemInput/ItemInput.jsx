@@ -4,6 +4,7 @@ import Watermelon from "../../Assets/Watermelon.svg";
 import Clock from "../../Assets/AlarmClock.svg";
 import Context from "../../ContextApi/Context";
 
+//input component for input form
 const ItemInput = (props) => {
   return (
     <Context.Consumer>
@@ -16,8 +17,10 @@ const ItemInput = (props) => {
               <img src={Clock} className="icon-style" />
             )}
 
+{/* display title from props */}
             <div className="input-heading"> {props.title}</div>
           </div>
+          {/* check for prop title name value and  rendering relevant input*/}
           {props.title === "Item Name" ? (
             <input
               className="item-input"

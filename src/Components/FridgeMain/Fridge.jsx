@@ -4,6 +4,7 @@ import InputItemCard from "../InputItemCard/InputItemCard";
 import Loader from "../Loader/Loader";
 import ItemCard from "../ItemCard/ItemCard";
 import Context from "../../ContextApi/Context";
+import SunBehindSmallCloud from "../../Assets/SunBehindSmallCloud.svg";
 
 const Fridge = () => {
   return (
@@ -15,6 +16,7 @@ const Fridge = () => {
             <div>
               <div className="greeting-heading">Good Morning, Johny!</div>
               <div className="greeting-subheading">
+                <img src={SunBehindSmallCloud} className="icon-style-sun" />
                 It's better to go shopping before this friday
               </div>
             </div>
@@ -26,6 +28,7 @@ const Fridge = () => {
 
               <InputItemCard />
 
+              {/* Condition - view spinner until all items are loaded */}
               {!context.isLoaded ? (
                 <div className="loader-container">
                   <Loader />
@@ -35,8 +38,12 @@ const Fridge = () => {
                 </div>
               ) : (
                 <div>
-                  <div className="item-count">Total Items - {context.itemCount}</div>
+                  {/* Total item count */}
+                  <div className="item-count">
+                    Total Items - {context.itemCount}
+                  </div>
 
+                  {/* mapping - display each of the items and it's details */}
                   {context?.allItems?.map((i) => (
                     <ItemCard
                       name={i.title}
